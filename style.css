@@ -1,0 +1,26 @@
+body {
+	padding: 20px 0;
+	background-color: #f1f1f1;
+}
+
+.nav-item {
+	margin: 0 5px;
+}
+.nav-item:first-child {
+	margin-left: 0px;
+}
+
+.nav-pills .nav-link {
+	background-color: #fff;
+	border-radius: 0.375rem;
+	font-size: 14px;
+}
+.nav-pills .nav-link:hover {
+	background-color: rgba(13,110,253,0.5);
+}
+.nav-pills .nav-link.active {
+	font-size: 15px;
+}
+.nav-pills .nav-link.active:hover {
+	background-color: rgb(13,110,253);
+}
